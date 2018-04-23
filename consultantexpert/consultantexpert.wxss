@@ -1,0 +1,18 @@
+
+.consultBottomItemImageBox{
+    margin: 20rpx 0rpx 0rpx 20rpx;
+    border: 1rpx solid #e5e5e5;
+    height: 230rpx;
+    width: 29%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.consultBottomItemImage{
+    height: 72rpx;
+    width: 72rpx;
+}
+.itemImageBox{
+    display: flex;
+    flex-wrap: wrap;
+}

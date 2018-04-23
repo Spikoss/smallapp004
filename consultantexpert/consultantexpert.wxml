@@ -1,0 +1,14 @@
+<view>
+   
+
+        <view class="itemImageBox">
+        <view class="consultBottomItemImageBox" bindtap='upImg'>
+            <image  class="consultBottomItemImage" src="../../../../images/icon9.png"></image>
+        </view>
+        <block wx:for="{{img_arr}}" wx:key="index" >
+            <image src="{{item}}" data-img="{{item}}" class="consultBottomItemImageBox"  bindtap="preBigImg"></image>
+        </block>
+        </view>
+
+
+</view>
